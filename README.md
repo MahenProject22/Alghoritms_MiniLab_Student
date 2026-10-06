@@ -1,0 +1,1 @@
+# Alghoritms_MiniLab_Student
