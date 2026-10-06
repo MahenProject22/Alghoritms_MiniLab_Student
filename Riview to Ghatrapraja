@@ -1,0 +1,7 @@
+How it works
+1. Compare each pair of adjacent numbers.
+2. Swap them if the left number is larger.
+3. Repeat the comparisons. After each pass, the largest unsorted number moves to the end.
+4. Stop early if a pass makes no swaps.
+The bubbleSort function sorts the slice in place, prints each pass, and returns the number of passes. For {5, 2, 8, 1, 4}, the result is {1, 2, 4, 5, 8}.
+The worst-case time complexity is O(n²). With the early-stop optimization, already sorted data takes just one pass.
